@@ -13,7 +13,7 @@ class Produto
         {
             if (value < 0)
             {
-                Console.WriteLine("Valor negativo, não válido!");
+                Console.WriteLine("Valor negativo, inválido");
             }
             else
             {
@@ -29,7 +29,7 @@ class Produto
         {
             if (value < 0)
             {
-                Console.WriteLine("Estoque negativo, não válido!");
+                Console.WriteLine("Estoque negativo, inválido");
             }
             else
             {
@@ -43,7 +43,6 @@ class Produto
         Console.WriteLine($"Nome do produto : {Nome}");
         Console.WriteLine($"Preço do produto : {Preco}");
         Console.WriteLine($"Estoque do produto : {Estoque}");
-        Console.WriteLine("----------------------------------");
     }
 }
 
